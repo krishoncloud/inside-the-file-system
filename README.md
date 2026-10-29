@@ -23,7 +23,7 @@ The last command serves the production build at http://127.0.0.1:4173. The downl
 
 ## Classroom flow
 
-Eight chapters cover file systems, file organization, the logical layer, physical mapping, allocation, free-space management, fragmentation, and a quiz. The planned sequence is 11 minutes, including three minutes devoted to the fragmentation challenge. See [PRESENTATION_SCRIPT.md](PRESENTATION_SCRIPT.md) and [DEMO_CHEATSHEET.md](DEMO_CHEATSHEET.md).
+Eight chapters cover file systems, file organization, the logical layer, physical mapping, allocation, free-space management, fragmentation, and a quiz. Each chapter has an expandable **Full chapter notes** panel with worked examples, formulas, tables, and explanations. The final chapter includes a five-question **Quick OS Viva** with progress, scoring, corrective explanations, and reset. Answer all five questions to enable checking; editing an answer clears the previous result. Viva answers persist while switching chapters or modes and reset with Reset Demo. The planned sequence is 11 minutes, including three minutes devoted to the fragmentation challenge. See [PRESENTATION_SCRIPT.md](PRESENTATION_SCRIPT.md) and [DEMO_CHEATSHEET.md](DEMO_CHEATSHEET.md).
 
 Use the chapter navigation or arrow keys/Space when focus is outside interactive controls. Keyboard navigation does not change chapters while editing an input or interacting with a button. Fullscreen uses the browser Fullscreen API; Escape exits. Presenter notes and an optional 11-minute countdown are in the footer.
 
@@ -72,5 +72,6 @@ GitHub Pages serves the committed `docs/` production snapshot from the `main` br
 - `src/engine.test.ts`: automated engine checks.
 - `src/main.tsx`: React Context state and interactive presentation/simulator.
 - `src/content.ts`: lesson content, notes, and guided narration.
+- `src/ChapterReading.tsx`: full chapter explanations, worked examples, and interactive viva.
 - `src/style.css`: responsive dark theme and reduced-motion handling.
 - `serve-offline.mjs`: dependency-free local production server.

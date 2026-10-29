@@ -69,3 +69,9 @@ Previous Step restores the prior disk snapshot. Finish guide exits the narration
 - File stays in the old strategy: expected; the selector only controls new files.
 - Blank hosted page or no network: use the local offline server and classroom ZIP.
 - Escape exits fullscreen. Arrow keys and Space advance only when focus is outside controls; click a heading first or use Next chapter.
+
+## Full chapter notes and viva
+
+Expand **Full chapter notes** near the top of any chapter to read the detailed explanation and worked examples. Collapse it to return to the live presentation. The worked 12-block disks and byte-size examples are illustrative, separate from the live 64-block simulator. The notes are optional reading; adding all of them to the spoken talk will extend the 10–12-minute route.
+
+In **08 Quiz & conclusion**, the original audience prediction is followed by **Quick OS Viva**. Select one answer for each of the five questions, then click **Check my answers**. Correct options in order: **Contiguous allocation**, **The chain must be traversed**, **7**, **Organization concerns records within a file; allocation concerns disk-block placement**, **Counting**. Use **Reset viva** to retry. **Reset Demo** also clears all viva answers.
